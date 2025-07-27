@@ -1,6 +1,6 @@
 [project]
 name = "ykkTelegramBot"
-version = "1.0.0"
+version = "1.0.1"
 description = "Simple telegram bot that send messages "
 authors = [{name = "Bruno Miyata", email = "bruno.yukio@eac.ufsm.br"}]
 requires-python = ">=3.6"
