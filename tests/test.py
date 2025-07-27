@@ -2,8 +2,6 @@
 %load_ext autoreload
 %autoreload 2 
 #%%
-from ScannerNotifier import *
-
 #%%
 notifier_obj = Notifier("config.json")
 #%%

@@ -1,7 +1,7 @@
 import json
 import requests
 
-class Notifier():
+class TelegramNotifier():
     """_summary_
     Simple telegram bot class
     """

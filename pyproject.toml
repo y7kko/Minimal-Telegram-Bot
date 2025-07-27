@@ -1,0 +1,16 @@
+[project]
+name = "ykkTelegramBot"
+version = "1.0.0"
+description = "Simple telegram bot that send messages "
+authors = [{name = "Bruno Miyata", email = "bruno.yukio@eac.ufsm.br"}]
+requires-python = ">=3.6"
+dynamic = ["optional-dependencies"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+optional-dependencies = {dev = {file = ["dev-requirements.txt"]}}
+
+
